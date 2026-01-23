@@ -1,0 +1,42 @@
+# ================================
+# Build artifacts
+# ================================
+CMakeFiles/
+Makefile
+
+# ================================
+# Compiled objects
+# ================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# ================================
+# IDEs and editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ================================
+# Debug / profiling
+# ================================
+*.log
+*.trace
+*.prof
+*.gprof
+perf.data*
+
+# ================================
+# Ignoring files from original school project to avoid AI violations
+# ================================
+references/
