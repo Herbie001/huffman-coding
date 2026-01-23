@@ -1,48 +1,59 @@
 huffman-coding/
-├── src/
-│   ├── include/ 
-│   │   ├── cli/
-│   │   |   ├── commands.h
-│   │   |   └── parser.h
-│   │   ├── compression/
-│   │   |   └── compress.h
-│   │   ├── decompression/ 
-│   │   |   └── decompress.h
-│   │   └── huffman-tree/
-│   │   |   └── tree.h
-│   │   ├── io/
-│   │   |   └── file-handler.h 
-│   │   └── visualization/ 
-│   │   |   └── exporter.h
-|   |   
-│   ├── lib/ 
-│   │   ├── cli/
-│   │   |   ├── commands.cpp
-│   │   |   └── parser.cpp
-│   │   ├── compression/
-│   │   |   └── compress.h
-│   │   ├── decompression/ 
-│   │   |   └── decompress.h
-│   │   └── huffman-tree/
-│   │   |   └── tree.cpp
-│   │   ├── io/
-│   │   |   └── file-handler.cpp
-│   │   └── visualization/ 
-│   │   |   └── exporter.cpp
+├── benchmarking/                   // TODO
+│   ├── examples/                   // TODO
+│   └──  benchmark.sh               // TODO
+|
+├── docs/
+│   ├── cli-interface.md
+│   ├── encoding-decoding.md
+│   └──  huffman-coding-trees.md
+│
+├── include/
+│   ├── cli/
+│   │   ├── commands.h
+│   │   └── parser.h
+│   ├── compression/
+│   │   └── compress.h
+│   ├── decompression/ 
+│   │   └── decompress.h
+│   └── huffman-tree/
+│   │   └── tree.h
+│   ├── io/
+│   │   └── file-handler.h 
+│   └── visualization/ 
+│       └── exporter.h
+| 
+├── src/ 
+│   ├── cli/
+│   │   ├── commands.cpp
+│   │   └── parser.cpp
+│   ├── compression/
+│   │   └── compress.h
+│   ├── decompression/ 
+│   │   └── decompress.h
+│   ├── huffman-tree/
+│   │   └── tree.cpp
+│   ├── io/
+│   │   └── file-handler.cpp
+│   ├── visualization/ 
+│   │   └── exporter.cpp
 │   └──  main.cpp/
 |
 ├── tests/ (Work in progress)
+│   ├── cli/ 
+│   │   ├── test-commands.cpp
+|   |   └── test-parser.cpp
 │   ├── compression/
 │   │   └── test-compress.h
 │   ├── decompression/ 
 │   │   └── test-decompress.h
-│   ├── cli/ 
-│   │   ├── test-commands.cpp
-|   |   └── test-parser.cpp
+│   ├── huffman-tree/
+│   │   └── test-tree.cpp
 │   ├── io/ 
 |   |   └── test-file-handler.cpp 
 │   ├── visualization/ 
 |   |   └──  test-exporter.cpp
+|
 ├── .gitignore
 ├── cli-hierarchy.txt
 ├── README.md

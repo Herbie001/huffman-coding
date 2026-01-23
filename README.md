@@ -1,6 +1,6 @@
 # Huffman Coding CLI Tool
 
-> A CLI tool for file compression and decompression using Huffman coding trees. Modernized from a classic implementation with modular architecture, scalable design, and enhanced visualization support.
+> A CLI tool for file compression and decompression using Huffman coding trees. Modernizing an old school project by including modular architecture, scalable design, visualization support and benchmarking.
 
 ## Table of Contents
 
@@ -39,6 +39,15 @@ This project implements a Huffman coding trees compression in C++. This tool is 
 
 ## Installation
 
+### Requirements
+
+- C++17 or later  
+
+// TODO   
+### Build Instructions
+
+
+
 ---
 
 ## Usage 
@@ -55,6 +64,16 @@ This project implements a Huffman coding trees compression in C++. This tool is 
 
 ## File Structure
 
-(Link to Huffman Coding Hierachy)[../cli-hierachy.txt]
+[Link to Huffman Coding Hierachy](huffman-coding/cli-hierarchy.txt)
+
+---
+
+## Development
+
+
+---
+
+## Testing
+
 
 ---

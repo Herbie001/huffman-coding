@@ -1,4 +1,4 @@
-// TODO 
+// TODO  Still working on implementation ideas for the CLI prompts
 # Command Line Interface
 
 This CLI will implement a plethora of commands analogous to a command in linux.  
