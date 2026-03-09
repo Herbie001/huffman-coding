@@ -1,0 +1,1 @@
+Minimal amount of text to be compressed in example file
