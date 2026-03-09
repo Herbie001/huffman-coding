@@ -1,6 +1,6 @@
 # Encoding & Decoding Using Huffman Coding Trees
 
-This document describes how Huffman coding trees are used for **encoding** and **decoding** data, along with their time and space complexity.
+This file describes how Huffman coding trees are used for encoding and decoding data, along with their time and space complexity.
 
 ---
 

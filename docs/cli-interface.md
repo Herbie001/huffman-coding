@@ -1,11 +1,10 @@
-// TODO  Still working on implementation ideas for the CLI prompts
 # Command Line Interface
 
-This CLI will implement a plethora of commands analogous to a command in linux.  
+The command-line interface is at the heart of this program. I wanted to originally just implement a single file compression or decompression; however, I thought about implementing multithreading if the user chose to compress multiple files (a maximum of 3) at one time. 
 
 # Commands
 
-
+Used commandArgumentProcessor just incase the user types the correct key word but capitalizes it in an odd way, just to make the program operation in the face of an oddly typed request that is technically correct.
 
 ## File Compression & Decompression
 
@@ -29,11 +28,24 @@ Compare compressed .bin file with the original .bin file.
 
 ### Benchmarking With Renowned File Compression
 
-
-Compare with compressed file using windows 11 compression software
+Compare with compressed file using windows 11 compression software or any other software readily available.
 ``` bash
-    diff 
+    diff compressed-file-example.huff compressed-file-example
+```
+
+See compression statistics by using the following bash command.
+```bash
+    statistics compressed-file-example.txt compressed-file-example.huff
 ```
 
 
+# Developer Thoughts
 
+For the CLI, I want to make it as fool proof as possible to cover all the edge and corner cases like entering empty spaces, nonstrings, empty files, adding extra spaces even after a valid number is entered, etc. Used 
+
+
+# References
+
+[cin & getline()](https://www.geeksforgeeks.org/cpp/problem-with-getline-after-cin/)
+
+[out_of_range exception](https://cplusplus.com/reference/stdexcept/out_of_range/)
