@@ -48,15 +48,17 @@ This project implements a Huffman coding-based compression in C++. This tool is 
 ```bash
 cd huffman-coding
 ```
-3. Build 
+3. Configure the project
 ```bash
 cmake -S . -B build
 ``` 
-4. CMake
+4. Build the project
 ```bash
 cmake --build build
 ```
-5. After the compression or decompression process has been completed, you can check in the `uploads/` directory to find the file. Finally, you can refer to `benchmarking/` to see how well the compression algorithm held up against well-renowned software.
+5. Run the CLI tool from the build directory.
+You can check in the `uploads/` directory to find the file. 
+Benchmarking results can be found in `benchmarking/` directory.
 
 
 ---
