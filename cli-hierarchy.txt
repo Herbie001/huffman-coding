@@ -1,7 +1,7 @@
 huffman-coding/
-├── benchmarking/                   // TODO
-│   ├── examples/                   // TODO
-│   └──  benchmark.sh               // TODO
+├── benchmarking/
+│   ├── examples/                   
+│   └──  benchmark.sh               
 |
 ├── docs/
 │   ├── cli-interface.md
@@ -39,6 +39,16 @@ huffman-coding/
 │   │   └── exporter.cpp
 │   └──  main.cpp/
 |
+├── uploads/ 
+│   ├── compressed_files/ 
+│   │   ├── *.huff
+|   |   └── *.huff
+│   ├── decompressed_files/ 
+│   │   ├── original-bin-file.bin
+|   |   └── original-txt-file.txt
+│   ├── example_files/ 
+│   │   ├── bin-file.bin
+|   |   └── txt-file.txt
 ├── tests/ (Work in progress)
 │   ├── cli/ 
 │   │   ├── test-commands.cpp
